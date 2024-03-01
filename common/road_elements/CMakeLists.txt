@@ -1,0 +1,2 @@
+add_header_only_library(common_road_element road_element.hpp)
+add_library(common::road_element ALIAS common_road_element)

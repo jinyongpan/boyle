@@ -1,0 +1,5 @@
+add_header_only_library(common_road_graph_data road_graph_data.hpp)
+add_library(common::road_graph_data ALIAS common_road_graph_data)
+
+add_subdirectory(utils)
+add_subdirectory(road_elements)
